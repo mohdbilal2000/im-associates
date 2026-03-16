@@ -19,6 +19,8 @@ export default function Home() {
       <main>
         <Hero />
         <DisclaimerBanner />
+        {/* About anchor so /about nav link also works as hash */}
+        <div id="about" style={{ scrollMarginTop: 80 }} />
         <PracticeAreas />
         <KnowledgeHub />
         <FAQ />
